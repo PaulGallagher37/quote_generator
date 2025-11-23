@@ -4,10 +4,20 @@ function Quote() {
     return(
         <div>
             <Navbar />
-            <div>
-                <h1>QUOTE</h1>
-                <h2>Quote Ref</h2>
-            </div>
+            <div className="contact-container">
+                <div>
+                    <label>Pallets/Cartons:</label>
+                    <input></input>
+                </div>
+                <div>
+                    <label>Weight:</label>
+                    <input></input>
+                </div>
+                <div>
+                    <label>CBM:</label>
+                    <input></input>
+                </div>
+            </div>  
         </div>
     )
 };
