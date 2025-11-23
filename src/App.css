@@ -16,7 +16,9 @@ body {
   background-repeat: no-repeat;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 /*Navbar CSS*/
 
@@ -40,19 +42,20 @@ body {
   cursor: pointer;
 }
 
+.logo {
+  display: flex;
+  justify-content:flex-start;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+
 
 
 /*Home CSS*/
 
 .home-container {
-  height: 100vh;
-}
-
-.home-logo {
-  display: flex;
-  justify-content:flex-start;
-  padding-top: 2rem;
-  padding-left: 2rem;
+  height: 70vh;
 }
 
 .home-text-container {
@@ -61,7 +64,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 60%;
+  height: 90%;
   width: 50%;
 }
 
@@ -71,7 +74,7 @@ body {
 }
 
 .home-p {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   color: black;
 }
 
