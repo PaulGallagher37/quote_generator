@@ -4,19 +4,28 @@ function Quote() {
     return(
         <div>
             <Navbar />
-            <div className="contact-container">
+            <div className="quote-container">
                 <div>
-                    <label>Pallets/Cartons:</label>
-                    <input></input>
+                    <h2>Route</h2>
+                    <label>Origin:</label>
+                    <input placeholder="Enter city or port"></input>
+                    <label>Destination:</label>
+                    <input placeholder="Enter city or port"></input>
                 </div>
                 <div>
+                    <h2>Cargo Details</h2>
+                    <label>Quantity:</label>
+                    <input></input>
                     <label>Weight:</label>
                     <input></input>
-                </div>
-                <div>
                     <label>CBM:</label>
                     <input></input>
                 </div>
+                <div>
+                    <input type="checkbox"></input>
+                    <label>Considered dangerous or hazardous</label>
+                </div>
+                <button>Get Quote</button>
             </div>  
         </div>
     )
