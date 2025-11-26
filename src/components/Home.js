@@ -14,7 +14,10 @@ function Home() {
                     <p className="home-p">All Worldwide Sea Ports & All Worldwide Airports</p>
                     <p className="home-p">Any Type of Cargo – Hazardous, Abnormal Loads</p>
                     <p className="home-p">Full Container Loads (FCL) & Less Container Loads (LCL)</p>
-                    <Link to="quote"><button className="home-button">Get Quote</button></Link>
+                    <div>
+                        <Link to="fclquote"><button className="home-button">FCL Quote</button></Link>
+                        <Link to="lclquote"><button className="home-button">LCL Quote</button></Link>
+                    </div>
                 </div>
             </div>
         </div>

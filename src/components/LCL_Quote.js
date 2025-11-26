@@ -1,10 +1,11 @@
 import Navbar from "./Navbar";
 
-function Quote() {
+function LCL_Quote() {
     return(
         <div>
             <Navbar />
             <div className="quote-container">
+                <h1>LCL Quote</h1>
                 <div>
                     <h2>Route</h2>
                     <label>Origin:</label>
@@ -31,4 +32,4 @@ function Quote() {
     )
 };
 
-export default Quote;
+export default LCL_Quote;

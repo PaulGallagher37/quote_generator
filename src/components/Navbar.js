@@ -11,7 +11,10 @@ function Navbar() {
                         <Link to="/"><p>Home</p></Link>
                     </li>
                     <li className="navbar-li">
-                        <Link to="/quote"><p>Quote</p></Link>
+                        <Link to="/fclquote"><p>FCL Quote</p></Link>
+                    </li>
+                    <li className="navbar-li">
+                        <Link to="/lclquote"><p>LCL Quote</p></Link>
                     </li>
                     <li className="navbar-li">
                         <Link to="/contact"><p>Contact</p></Link>

@@ -2,8 +2,9 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
-import Quote from './components/Quote';
+import LCL_Quote from './components/LCL_Quote';
 import Contact from './components/Contact';
+import FCL_Quote from './components/FCL_Quote';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="quote" element={<Quote />} />
+          <Route path="fclquote" element={<FCL_Quote />} />
+          <Route path="lclquote" element={<LCL_Quote />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
     </BrowserRouter>
